@@ -95,21 +95,34 @@ section h2 {
     font-size: 32px;
 }
 
-#sports, #entertainment {
+#sports{
     background-color: rgba(0, 255, 0, 0.1);
 }
 
-#sports .articles article a,
-#entertainment .articles article a{
+#sports .articles article a{
     background-color: rgba(0, 255, 0, 0.8);
 }
 
-#economy, #technology {
+#economy {
     background-color: #f8f59f;
 }
 
-#economy .articles article a,
-#technology .articles article a {
+#economy .articles article a {
     background-color: #ff9f1a;
 }
 
+#entertainment {
+    background-color: rgba(0, 0, 255, 0.1);;
+}
+
+#entertainment .articles article a {
+    background-color: rgba(0, 0, 255, 0.8);
+}
+
+#technology {
+    background-color: #ccc;
+}
+
+#technology .articles article a {
+    background-color: #525151;
+}
