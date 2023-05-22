@@ -40,6 +40,7 @@ button {
 
 ul li {
     display: none;
+    margin: 16px 0;
 }
 
 .add-lista {
@@ -53,6 +54,3 @@ ul li {
     text-decoration: line-through;
 }
 
-.remove-riscado {
-    text-decoration: none;
-}
