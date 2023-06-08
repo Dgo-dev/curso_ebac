@@ -1,0 +1,41 @@
+@use 'variaveis';
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.cards {
+    border: 2px solid #000;
+    padding: 20px;
+    
+
+    h1 {
+        cursor: pointer;
+    }
+
+    .img-card {
+        width: 100%;
+        display: block;
+        height: 300px;
+    }
+}
+
+.mudarCor {
+    background-color: variaveis.$mudarCor;
+}
+
+@media screen and (max-width: 767px) {
+    .container-cards {
+        flex-direction: column;
+    }
+
+    
+
+}
